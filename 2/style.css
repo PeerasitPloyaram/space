@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container  {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+}
+
+.container ul li a{
+    margin-left: 3rem;
+    transition: 0.35s;
+    text-decoration: none;
+    color: black;
+    
+}
+
